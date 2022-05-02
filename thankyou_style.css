@@ -1,0 +1,89 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: .875rem;
+  background-color: #121417;
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.card {
+  background-color: #252d37;
+  width: 88%;
+  max-width: 365px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 2rem 1.5rem;
+  margin: auto 0;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.rate-counts {
+  margin: 1.5rem 0 2rem;
+}
+
+.rate-counts p {
+  font-size: 1rem;
+  color: #fb7413;
+  background-color: rgba(149, 158, 172, 0.2);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: .6em 1em;
+  border-radius: 50px;
+  letter-spacing: .5px;
+}
+
+.title {
+  margin: 1rem 0;
+}
+
+.description {
+  line-height: 1.5;
+  color: #959eac;
+}
+
+.attribution {
+  padding: 2rem 0 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=thankyou_style.css.map */

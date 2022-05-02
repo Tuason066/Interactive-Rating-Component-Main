@@ -1,0 +1,137 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: .875rem;
+  background-color: #121417;
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.card {
+  background-color: #252d37;
+  width: 88%;
+  max-width: 375px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: auto 0;
+}
+
+.star-btn {
+  background-color: rgba(149, 158, 172, 0.2);
+  padding: .7em;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.star-btn img {
+  width: .75rem;
+  height: .75rem;
+}
+
+.title {
+  margin: 1rem 0;
+}
+
+.description {
+  line-height: 1.5;
+  color: #959eac;
+  margin-bottom: 1.75rem;
+}
+
+.btn-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+  grid-gap: .5rem;
+}
+
+.btn-container input {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 12vw;
+  height: 12vw;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+  border-radius: 50%;
+  color: #959eac;
+  background-color: rgba(149, 158, 172, 0.2);
+  font-family: 'Overpass', sans-serif;
+  font-size: .875rem;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  background-color: #fb7413;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  margin-top: 1.5rem;
+  font-family: 'Overpass', sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.attribution {
+  padding: 2rem 0 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
